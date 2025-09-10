@@ -38,6 +38,24 @@ img {
   animation: planetFade 1.5s ease;
 }
 
+.planetFade:hover {
+  background-image: url(images/nasa.jpg);
+}
+
+#superTess {
+  background-color: rgb(129, 129, 237);
+  color: black;
+  border: solid black;
+  border-radius: 50px;
+  border-width: 5px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#superTess:hover {
+  background-color: plum;
+}
+
 /* Animasjon */
 
 @keyframes planetFade {
